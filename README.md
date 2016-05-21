@@ -62,8 +62,17 @@ WebMapの背景画像としては，ほぼデファクトになったといっ�
 ####メモ
 ##### 衛星画像のタイル配信
 
-標高PNGを拡張
+標高PNGを拡張　https://gsj-seamless.jp/labs/elev/doc/0.6.0/png_elev_tile.html
 
-```http://hogehoge.com/xyz/{t}/{z}/{x}/{y}.{ext}```
-  
+```http://hogehoge.com/{z}/{x}/{y}.{ext}
+```
+
 を
+
+
+```http://hogehoge.com/{sensor}/{band}/{z}/{x}/{y}.{ext}
+```
+
+とすればいいのかな？
+
+ちなみに、標高タイルの拡張として、気象値タイルなんかもあっていいと思う。ただ、データの容量的に、いろいろ面倒
