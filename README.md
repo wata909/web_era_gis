@@ -64,14 +64,11 @@ WebMapの背景画像としては，ほぼデファクトになったといっ�
 
 標高PNGを拡張　https://gsj-seamless.jp/labs/elev/doc/0.6.0/png_elev_tile.html
 
-```http://hogehoge.com/{z}/{x}/{y}.{ext}
-```
+>http://hogehoge.com/{z}/{x}/{y}.{ext}
 
 を
 
-
-```http://hogehoge.com/{sensor}/{band}/{z}/{x}/{y}.{ext}
-```
+>http://hogehoge.com/{sensor}/{band}/{z}/{x}/{y}.{ext}
 
 とすればいいのかな？
 
